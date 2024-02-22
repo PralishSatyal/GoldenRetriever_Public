@@ -1,0 +1,15 @@
+This program was written by Pralish Satyal to flash metering software onto any Raspberry Pi device. 
+
+This will run locally on your computer. Prior to this, ensure that you have installed raspbian and set up a Raspberry Pi.
+
+
+1. Install Raspbian onto micro-sd card (32-bit OS Lite Variant)
+2. Ensure that you have logged the SSH hostname, the SSH login username and password
+3. Physically power the device and plug into network router via Ethernet. Ensure you are on the same network
+4. Run this software and use those login credentials you have generated
+5. Run all software options from the File Menu
+6. Reboot device
+7. Setup system services then repeat step 6
+8. Add modbus map to device
+9. Software restart
+10. Verify data is flowing  by data view port (TBD) and/or system health checker
